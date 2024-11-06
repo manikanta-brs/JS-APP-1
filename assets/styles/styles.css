@@ -1,0 +1,205 @@
+body {
+  background-image: url(../images/BG.png);
+}
+
+div .courseTitle img {
+  width: 56px;
+  height: 66px;
+  /* background-color: blue; */
+}
+.header .navbar-brand {
+  background-color: var(--primary-color);
+  padding: 50px;
+}
+
+div .courseTitle {
+  /* padding: 50px; */
+  background-color: blue;
+}
+.ReactTitle {
+  background-color: #838383;
+  height: 50px;
+  font: normal normal 600 19px / 27px Oswald;
+  letter-spacing: 0.38px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.ReactTitle img {
+  height: 30px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+main {
+  display: block;
+  /* background-color: grey; */
+}
+.clock {
+  width: 340px;
+  height: 340px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  margin: 100px auto 0px auto;
+  position: relative;
+  border: 20px solid rgba(229, 238, 229, 0.6);
+}
+.hourHand {
+  width: 8px;
+  height: 75px;
+  background-color: #000;
+  transform-origin: bottom center;
+  border-radius: 4px;
+  position: absolute;
+  top: 75px;
+  left: 145px;
+  z-index: 10;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  transform: rotate(360deg);
+  transition: all 0.06s;
+}
+
+.minuteHand {
+  width: 4px;
+  height: 100px;
+  background-color: #000;
+  transform-origin: bottom center;
+  border-radius: 5px;
+  position: absolute;
+  top: 49px;
+  left: 150px;
+  z-index: 9;
+  transition: all 0.06s;
+
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  transform: rotate(360deg);
+}
+
+.secondHand {
+  width: 2px;
+  height: 120px;
+  background-color: tomato;
+  transform-origin: bottom center;
+  border-radius: 2px;
+  position: absolute;
+  top: 30px;
+  left: 149px;
+  z-index: 8;
+  transition: all 0.06s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  transform: rotate(360deg);
+}
+.center {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  border-radius: 50%;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  z-index: 20;
+}
+
+.clock ul li {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 10px;
+  color: white;
+}
+.clock ul li:nth-child(1) {
+  right: 22%;
+  top: 6.5%;
+}
+.clock ul li:nth-child(2) {
+  right: 6%;
+  top: 25%;
+}
+.clock ul li:nth-child(3) {
+  right: 1%;
+  top: calc(50% - 10px);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.clock ul li:nth-child(4) {
+  right: 6%;
+  top: 69%;
+}
+
+.clock ul li:nth-child(5) {
+  right: 22%;
+  top: 84%;
+}
+
+.clock ul li:nth-child(6) {
+  right: 45%;
+  top: 90%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.clock ul li:nth-child(7) {
+  left: 22%;
+  top: 84%;
+}
+.clock ul li:nth-child(8) {
+  left: 6%;
+  top: 69%;
+}
+
+.clock ul li:nth-child(9) {
+  left: 1%;
+  top: calc(50% - 10px);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.clock ul li:nth-child(10) {
+  left: 6%;
+  top: 25%;
+}
+
+.clock ul li:nth-child(11) {
+  left: 22%;
+  top: 6.5%;
+}
+
+.clock ul li:nth-child(12) {
+  left: 45%;
+  top: 1%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+footer {
+  letter-spacing: 0.24px;
+  background-color: var(--primary-color);
+  color: white;
+}
+footer button {
+  /* border: none; */
+  padding: 10px 10px;
+  border-radius: 20%;
+}
+footer button {
+  border-color: white;
+  box-shadow: 2px 2px 0px 0px;
+}
+#build {
+  background-color: #1a4b84;
+}
+#raise {
+  background-color: #991e14;
+}
+#shine {
+  background-color: #fead06;
+}
